@@ -1,0 +1,2 @@
+install anaconda
+instal jupyter
