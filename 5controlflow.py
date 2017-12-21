@@ -1,3 +1,19 @@
+x = 1
+def jaka1();
+	x = 20 #namespace variable
+	return x
+jaka() # 20
+x #10
+
+x = 10
+def jaka ():
+    global x
+    x = 30
+    return x
+jaka() #30
+x # 30
+
+
 #if
 x = int(raw_input("masukkan inputan: ")) #input
 if x < 10:
@@ -121,9 +137,13 @@ f(**dictionaries)
 #lambda expression = anonymous func
 def f(n):
 	return lambda x: x + n
-
 f2 = f(10)
 f2(20) # 30
+          
+
+func1 = lambda params: params+params
+func1(10) #20
+
 
 
 
