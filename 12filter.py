@@ -3,11 +3,10 @@
 # urutan = [[1,'string1',True],[4,'string2',False]]
 urutan = [1,2,3,1]
 
-def kategorikan(args):
-	urutanfilter = []
-	for x in args:
-		return urutanfilter.append(x)
-	# print args
+def kategori1(args):
+	if args == 1:
+		return True
 
-filter(kategorikan, urutan)
+urutanbaru = filter(kategori1, urutan)
+print urutanbaru #[1, 1]
 	
