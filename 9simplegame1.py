@@ -13,20 +13,23 @@ player1 = str(raw_input('masukkan nama player1? '))
 player2 = str(raw_input('masukkan nama player2? '))
 
 class Kartu():
-	def __init__(self):
+	def __init__(self, lambang_kartu, nomor_kartu):
+		print 'kartu diurutkan'
+
 		
 
 class Bandar():
 	def __init__(self):
+		print 'kocok kartu'
 		self.semua_kartu = []
 		for nomor_kartu in nomor_kartu_banyak:
 			for lambang_kartu in lambang_kartu_banyak:
 				self.semua_kartu.append(Kartu(lambang_kartu, nomor_kartu))
 				# print lambang_kartu + nomor_kartu
 
-print('kartu di bandar', Bandar())
+Bandar()
 
-kartuditanganplayer = []
+# kartuditanganplayer = []
 
 
 

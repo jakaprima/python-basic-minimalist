@@ -38,15 +38,26 @@ def func7():
 	print 'exe func7'
 func6(func7)
 
+
+#decorator
 def func8(func):
 	def func9():
 		print 'func9 exe'
 		func()
 		print 'exe setelah func10 terexe'
 	return func9
+# def func10():
+# 	print 'fungsi10 ini butuh decorator'
+# func11 = func8(func10)
+# func11()
+
+
+#@new_decorator // sama kaya atas hasilnya
+@func8
 def func10():
-	print 'fungsi10 ini butuh decorator'
-func11 = func8(func10)
-func11()
+	print 'fungsi ini membutuhkan decorator'
+func10()
+
+
 
 

@@ -1,4 +1,4 @@
-x = 1
+x = 10
 def jaka1();
 	x = 20 #namespace variable
 	return x

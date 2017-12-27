@@ -1,8 +1,8 @@
-#type
+# ------------------------------------------------------------- type
 type(2) #int
 
 
-#list
+# ------------------------------------------------------------- list
 ## append / tambah item di akhir list
 a = [1,2,3,4,5]
 a.append(6) #[1,2,3,4,5,6]
@@ -44,7 +44,7 @@ j.reverse() #5,4,3,2,1
 #list seabagai queue / FIFO pake append dan popleft
 
 
-# ------------------------ set -------------------------------#
+# -------------------------------------------------------------  set
 # masukin dengan value yang unique value yang sama ga akan masuk
 x = set()
 x.add(1)

@@ -20,6 +20,19 @@ array3 # 2,4,8,16
 array4 = [1,2,3,4,5,6,7,8]
 array4[2:5] = [] #from index 2 5-2 = 3 remove 3 data
 array4 # 1,2,6,7,8
+array4.reverse()
+print(array4) #[8, 7, 6, 2, 1]
+
+
+array5 = [4,2,1,5,6,7,4]
+array5.sort()
+print(array5) #[1, 2, 4, 4, 5, 6, 7]
+
+l1 = [1,2,1,2,1]
+l2 = [3,4,3,4,3]
+
+array6 = [l1,l2] #matrix
+print(array6[0])
 
 
 
