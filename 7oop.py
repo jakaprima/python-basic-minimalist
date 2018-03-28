@@ -16,7 +16,7 @@ class orang(object):
 
 	def __init__(self, argument):
 		self.method = argument # instance variable unique to each instance
-jaka = orang(params='jaka prima')
+jaka = orang('jaka prima')
 jaka.method # jaka prima
 jaka.kategori # orang
 

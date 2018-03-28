@@ -29,24 +29,24 @@ class Bandar():
 
 Bandar()
 
-# kartuditanganplayer = []
+kartuditanganplayer = []
 
 
 
-# import random
+import random
 
-# #boolean untuk mengetahui jika tangan sedang bermain
-# main = False
+#boolean untuk mengetahui jika tangan sedang bermain
+main = False
 
-# chip_pool = 100 #bisa juga pake raw input
+chip_pool = 100 #bisa juga pake raw input
 
-# bet = 1
+bet = 1
 
-# restart_phrase = "pencet 'd' untuk deal dengan kartu lagi atau pencet 'q' untuk keluar "
+restart_phrase = "pencet 'd' untuk deal dengan kartu lagi atau pencet 'q' untuk keluar "
 
 
 
-# #class untuk suit/cocok dan rank kartu
+#class untuk suit/cocok dan rank kartu
 # class Kartu:
 # 	def __init__(self, cocok, rank):
 # 		self.cocok = cocok

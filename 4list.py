@@ -18,7 +18,7 @@ array3 # 2,4,8,16
 
 #slices / potong
 array4 = [1,2,3,4,5,6,7,8]
-array4[2:5] = [] #from index 2 5-2 = 3 remove 3 data
+array4[2:5] = [] #dari index 2 5-2 = 3 hapus 3 data
 array4 # 1,2,6,7,8
 array4.reverse()
 print(array4) #[8, 7, 6, 2, 1]

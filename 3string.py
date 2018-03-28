@@ -33,7 +33,7 @@ a[:1] + a[3:] #jo
 
 
 # length
-len(a); #yang bisa dilen cuma string
+len(a);
 
 
 #tranverse
