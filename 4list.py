@@ -1,6 +1,9 @@
 # list
 # python mengetahui senyawa tipe data, digunakan untuk grupin bersama dengan value lain. paling serbaguna/versatile adalah list, dimana dapat ditulis sebagai list dari pemisahan koma value (item) antara kurung persegi, list mungkin mengandung tipe data berbeda, tetapi biasanya semuanya tipe yang sama
 
+# range menjadi list
+list(range(4)) #output: [0,1,2,3]
+
 array = [1,2,3,4]
 
 #concatenate
