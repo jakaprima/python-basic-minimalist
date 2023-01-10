@@ -67,7 +67,7 @@ d.aksi2 #minum
 #magic_method:
 #__new__ = membuat new instance
 #__init__
-#terpanggil setelah instance terbuat oleh __new__(), tapi sebelum return ke caller. argument yang ter passed ke class construtor expression. jika base class memiliki __init__() method, derived/diturunkan class __init__() method jika apapun harus explicitly/jelas terpanggil oleh proper inisialisasi dari base class part dari contoh, misal b = buku() akan error karena harus ada params jika ada set params di __init__()
+#terpanggil setelah instance terbuat oleh __new__(), tapi sebelum return ke caller. agit rgument yang ter passed ke class construtor expression. jika base class memiliki __init__() method, derived/diturunkan class __init__() method jika apapun harus explicitly/jelas terpanggil oleh proper inisialisasi dari base class part dari contoh, misal b = buku() akan error karena harus ada params jika ada set params di __init__()
 
 #__str__
 #terpanggil oleh str(object) dan built-in functions format() & print() untuk komputasi informal atau print string representasi dari object

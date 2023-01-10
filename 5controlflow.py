@@ -48,7 +48,7 @@ print(array1)
 print(range(5)) #0,1,2,3,4
 
 #start from
-print(range(6,10)) ##0,1,2,3,4 10-6 = ambil 4 data
+print(range(6,10)) #6,7,8,9 10-6 = ambil 4 data
 
 # range specify different increment (step)
 range(0, 10, 3) # looping dengan increment +3 output: 0, 3, 6, 9
