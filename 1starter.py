@@ -1,5 +1,5 @@
-install anaconda
-instal jupyter
+# install anaconda
+# instal jupyter
 
 """
 PYTHON INTERPRETER AND COMPILER
@@ -14,3 +14,60 @@ Portabilitas: Kode yang dijalankan oleh interpreter sering lebih portabel, karen
 Contoh interpreter terkenal: Python, Ruby, Perl, dan JavaScript adalah contoh bahasa pemrograman yang menggunakan interpreter sebagai bagian dari eksekusi kode mereka.
 Penting untuk diingat bahwa interpretasi dan kompilasi adalah dua pendekatan yang berbeda dalam menjalankan kode sumber, dan masing-masing memiliki kelebihan dan kelemahan sendiri. Keputusan untuk menggunakan interpreter atau kompiler tergantung pada kebutuhan dan tujuan pengembangan perangkat lunak yang sedang dilakukan.
 """
+
+import sys
+print(sys.version)
+
+# basic: syntax, comments, variables
+# casting spesifikasi tipe data dari variable
+x = str(3)
+
+# get type:
+print(type(x))
+
+# all datatype list
+# Text Type:	str
+# Numeric Types:	int, float, complex
+# Sequence Types:	list, tuple, range
+# Mapping Type:	dict
+# Set Types:	set, frozenset
+# Boolean Type:	bool
+# Binary Types:	bytes, bytearray, memoryview
+# None Type:	NoneType
+
+# settings datatype
+# x = "Hello World"	str
+# x = 20	int
+# x = 20.5	float
+# x = 1j	complex
+# x = ["apple", "banana", "cherry"]	list
+# x = ("apple", "banana", "cherry")	tuple
+# x = range(6)	range
+# x = {"name" : "John", "age" : 36}	dict
+# x = {"apple", "banana", "cherry"}	set
+# x = frozenset({"apple", "banana", "cherry"})	frozenset
+# x = True	bool
+# x = b"Hello"	bytes
+# x = bytearray(5)	bytearray
+# x = memoryview(bytes(5))	memoryview
+# x = None	NoneType
+
+
+# legal variable name
+myvar = "John"
+my_var = "John" # snake case
+_my_var = "John"
+myVar = "John" # camel case
+MYVAR = "John"
+myvar2 = "John"
+MyVar = "aa" # pascal case
+
+# multiple value
+x, y, z = 1, 2, 3
+x, y, z = 1
+
+# unpacking a collection
+list_data = [1,2,3]
+x, y, z = list_data
+
+

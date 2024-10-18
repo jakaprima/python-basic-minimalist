@@ -14,13 +14,13 @@ player2 = str(raw_input('masukkan nama player2? '))
 
 class Kartu():
 	def __init__(self, lambang_kartu, nomor_kartu):
-		print 'kartu diurutkan'
+		print('kartu diurutkan')
 
 		
 
 class Bandar():
 	def __init__(self):
-		print 'kocok kartu'
+		print("kartu di kocok")
 		self.semua_kartu = []
 		for nomor_kartu in nomor_kartu_banyak:
 			for lambang_kartu in lambang_kartu_banyak:

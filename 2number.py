@@ -1,6 +1,31 @@
 # number
 
-# operator +, -, *, /
+# OPERATOR
+# +	Addition	x + y	
+# -	Subtraction	x - y	
+# *	Multiplication	x * y	
+# /	Division	x / y	
+# %	Modulus	x % y	
+# **	Exponentiation	x ** y	
+# //	Floor division	x // y
+
+# ASSIGMENT OPERATORS
+# =	    x = 5	x = 5	
+# +=	x += 3	x = x + 3	
+# -=	x -= 3	x = x - 3	
+# *=	x *= 3	x = x * 3	
+# /=	x /= 3	x = x / 3	
+# %=	x %= 3	x = x % 3	
+# //=	x //= 3	x = x // 3	
+# **=	x **= 3	x = x ** 3	
+# &=	x &= 3	x = x & 3	
+# |=	x |= 3	x = x | 3	
+# ^=	x ^= 3	x = x ^ 3	
+# >>=	x >>= 3	x = x >> 3	
+# <<=	x <<= 3	x = x << 3	
+# :=	print(x := 3)	x = 3
+# print(x)
+
 2+2 #4
 50-5*6 #20
 (50-5.0*6) / 4 #5.0
@@ -15,9 +40,9 @@
 
 
 #execute data terakhir tersimpan dalam variable _
-_ 
+# _ 
 # 8
 
-a = 17/3.0
-round(_, 2) 
+# a = 17/3.0
+# round(_, 2) 
 #5.67 mengambil berapa desimal dibelakang .
