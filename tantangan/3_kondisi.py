@@ -38,12 +38,7 @@ elif N > 5 and N < 21:
 	else:
 		print('tidak aneh')
 else:
-	if N % 2 == 1
+	if N % 2 == 1:
 		print('tidak aneh')
 	else:
 		print('aneh')
-
-
-
-
-
